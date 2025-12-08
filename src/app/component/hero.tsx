@@ -42,7 +42,6 @@ export default function Example() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            
           </div>
         </nav>
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -52,11 +51,6 @@ export default function Example() {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your company</span>
                 <h3 className="text-pretty text-3xl font-bold"> Arthi Annamalai </h3>
-                {/* <img */}
-                  {/* alt="" */}
-                  {/* src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" */}
-                  {/* className="h-8 w-auto" */}
-                {/* /> */}
               </a>
               <button
                 type="button"
@@ -74,19 +68,12 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
+                       onClick={() => setMobileMenuOpen(false)} 
                       className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  {/* <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </a> */}
                 </div>
               </div>
             </div>

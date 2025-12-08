@@ -3,19 +3,18 @@ const posts = [
   {
     id: 1,
     title: 'Product Manager Fellowship, Bangalore-2025',
-    href: '#',
+    // href: '#',
    description: `
 Built end to end PRD with user research interviews, KPIs, workflows, personas, user journeys, system design, wireframes & prototypes.Solved business cases and product assignments mentored by industry experts.
 `,
       imageUrl:
       "/nextleap.png",
     
-   
     category: { title: 'Product management', href: '#' },
     author: {
       name: 'NextLeap',
       role: 'Hands on Fellowship Program',
-      href: '#',
+      // href: '#',
       imageUrl:
         "/nextleap.png",
     },
@@ -23,7 +22,7 @@ Built end to end PRD with user research interviews, KPIs, workflows, personas, u
   {
     id: 2,
     title: 'Co-Founder — Nakshatra Pre School (2014–2024)',
-    href: '#',
+    // href: '#',
     description:
       'Oversaw parents handling, operations, marketing & promotions for 10+ years. Managed communication and service workflow for 1000+ parents by streamlining, work flows, setting different metrics. Created structured SOP that reduced operational dependency by 80%.',
     imageUrl:"/ent1.png",
@@ -33,7 +32,7 @@ Built end to end PRD with user research interviews, KPIs, workflows, personas, u
     author: {
       name: 'Co-Founder',
       role: 'Entrepreneurship',
-      href: '#',
+      // href: '#',
       imageUrl:
         '/ent1.png',
     },
@@ -62,11 +61,11 @@ export default function Example() {
                 </div>
                 <div>
                   <div className="flex items-center gap-x-4 text-xs">
-                    <time dateTime={post.datetime} className="text-gray-500">
+                    {/* <time dateTime={post.datetime} className="text-gray-500">
                       {post.date}
-                    </time>
+                    </time> */}
                     <a
-                      href={post.category.href}
+                      // href={post.category.href}
                       className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                     >
                       {post.category.title}
@@ -74,7 +73,7 @@ export default function Example() {
                   </div>
                   <div className="group relative max-w-xl">
                     <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                      <a href={post.href}>
+                      <a >
                         <span className="absolute inset-0" />
                         {post.title}
                       </a>
@@ -86,7 +85,7 @@ export default function Example() {
                       <img alt="" src={post.author.imageUrl} className="size-10 rounded-full bg-gray-50" />
                       <div className="text-sm/6">
                         <p className="font-semibold text-gray-900">
-                          <a href={post.author.href}>
+                          <a >
                             <span className="absolute inset-0" />
                             {post.author.name}
                           </a>

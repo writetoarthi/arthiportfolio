@@ -20,7 +20,7 @@ export default function Productdeck() {
     {
       title: "Memlay - AI Personal Journal App - created by Myself",
       thumbnail: "/memlay2.png",
-      pdfUrl: "/courseradeck.pdf",
+      pdfUrl: "/memlay_screens.pdf",
     },
   ];
 
