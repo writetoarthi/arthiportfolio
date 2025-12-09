@@ -24,7 +24,7 @@ Built end to end PRD with user research interviews, KPIs, workflows, personas, u
     title: 'Co-Founder — Nakshatra Pre School (2014–2024)',
     // href: '#',
     description:
-      'Oversaw parents handling, operations, marketing & promotions for 10+ years. Managed communication and service workflow for 1000+ parents by streamlining, work flows, setting different metrics. Created structured SOP that reduced operational dependency by 80%.',
+      'Oversaw parents handling, operations, marketing & promotions for 10+ years. Managed communication and service workflow for 1000+ parents by streamlining, work flows, setting different metrics. Created structured SOP that reduced operational dependency by 80%. Coordinated with teachers, vendors, and parents to ensure smooth learning delivery.',
     imageUrl:"/ent1.png",
   
    
