@@ -43,7 +43,7 @@ Built end to end PRD with user research interviews, KPIs, workflows, personas, u
 export default function Example() {
   return (
     <section id="experience" >
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">My Experience</h2>
@@ -51,13 +51,12 @@ export default function Example() {
           <div className="mt-16 space-y-20 lg:mt-20">
             {posts.map((post) => (
               <article key={post.id} className="relative isolate flex flex-col gap-8 lg:flex-row">
-                <div className="relative aspect-video sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-                  <img
-                    alt=""
-                    src={post.imageUrl}
-                    className="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"
-                  />
-                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                <div className="relative aspect-square w-full lg:w-64 lg:shrink-0">
+                <img
+                alt=""
+                src={post.imageUrl}
+                className="absolute inset-0 w-full rounded-2xl bg-gray-50 object-contain object-center p-6"
+                />
                 </div>
                 <div>
                   <div className="flex items-center gap-x-4 text-xs">

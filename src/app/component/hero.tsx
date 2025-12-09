@@ -81,7 +81,7 @@ export default function Example() {
         </Dialog>
       </header>
 
-      <div className="relative isolate pt-14">
+      <div className="relative isolate pt-8">
         <svg
           aria-hidden="true"
           className="absolute inset-0 -z-10 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -125,10 +125,10 @@ driven decision making.
               >
                 Download My Resume
               </a>
-             
+        
             </div>
           </div>
-          <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">
+          <div className="mt-12 sm:mt-16 lg:mt-0 lg:shrink-0 lg:grow">
              <img alt="" src="arthi6.png" width={500} height={500} />
           </div>
         </div>
