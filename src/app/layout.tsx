@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Arthi Portfolio",
     images: [
       {
-        url: "/arthi6.png",
+        url: "/arthi_og.png",
         width: 600,
         height: 300,
         alt: "Arthi Portfolio Open Graph Image",
