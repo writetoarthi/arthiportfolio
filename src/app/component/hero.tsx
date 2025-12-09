@@ -22,7 +22,7 @@ export default function Example() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-         <h3 className="text-pretty text-3xl font-bold"> Arthi Annamalai </h3>
+         <h3 className="text-pretty text-2xl font-bold"> Arthi Annamalai </h3>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -36,7 +36,7 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+              <a key={item.name} href={item.href} className="text-sm font-semibold text-gray-900">
                 {item.name}
               </a>
             ))}
