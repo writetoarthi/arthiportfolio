@@ -47,7 +47,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">My Experience</h2>
-          <p className="mt-2 text-lg/8 text-gray-600">I bring a blend of hands-on product experience and a decade of people-focused operational leadership. My background combines user empathy, structured problem-solving, and the ability to turn insights into practical, scalable product solutions..</p>
+          <p className="mt-6 text-lg/8 text-gray-600">I bring a blend of hands-on product experience and a decade of people-focused operational leadership. My background combines user empathy, structured problem-solving, and the ability to turn insights into practical, scalable product solutions..</p>
           <div className="mt-16 space-y-20 lg:mt-20">
             {posts.map((post) => (
               <article key={post.id} className="relative isolate flex flex-col gap-8 lg:flex-row">
@@ -78,7 +78,7 @@ export default function Example() {
                         {post.title}
                       </a>
                     </h3>
-                    <p className="mt-5 text-sm/6 text-gray-600">{post.description}</p>
+                    <p className="mt-5 text-lg/8 text-gray-600">{post.description}</p>
                   </div>
                   <div className="mt-6 flex border-t border-gray-900/5 pt-6">
                     <div className="relative flex items-center gap-x-4">
