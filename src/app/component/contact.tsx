@@ -13,7 +13,7 @@ export default function Example() {
           <div>
             <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Email ID</h3>
             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-              <p>witetoarthi@gmail.com</p>
+              <p>writetoarthi@gmail.com</p>
             
             </address>. 
           </div>
